@@ -1,9 +1,10 @@
-package com.example.multipleapps
+package com.example.multipleapps.splashScreen
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import com.example.multipleapps.MenuInicio
 import com.example.multipleapps.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

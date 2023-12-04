@@ -13,10 +13,28 @@
         android:theme="@style/Theme.MultipleApps"
         tools:targetApi="31">
         <activity
+            android:name=".timePicker.TimePicker"
+            android:exported="false" />
+        <activity
+            android:name=".saludo.Saludo"
+            android:exported="false" />
+        <activity
+            android:name=".navigationComponent.NavigationComponent"
+            android:exported="false" />
+        <activity
+            android:name=".datePicker.DatePicker"
+            android:exported="false" />
+        <activity
+            android:name=".courseKotlin.CourseKotlin"
+            android:exported="false" />
+        <activity
+            android:name=".calculator.Calculator"
+            android:exported="false" />
+        <activity
             android:name=".MenuInicio"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".splashScreen.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.App.Starting">
             <intent-filter>
