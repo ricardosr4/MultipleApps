@@ -8,9 +8,9 @@
     <style name="Theme.MultipleApps" parent="Base.Theme.MultipleApps" />
 
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <item name="android:windowSplashScreenBackground">@color/morado</item>
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splah_android</item>
-        <item name="android:windowSplashScreenAnimationDuration">300</item>
+        <item name="windowSplashScreenBackground">@color/morado</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splah_android</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
         <item name="postSplashScreenTheme">@style/Base.Theme.MultipleApps</item>
 
 
