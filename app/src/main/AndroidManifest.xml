@@ -15,6 +15,24 @@
         android:theme="@style/Theme.MultipleApps"
         tools:targetApi="31">
         <activity
+            android:name=".login.LoginRegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".superHero.SuperHeroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".navigationComponent.NavigationComponent"
+            android:exported="false" />
+        <activity
             android:name=".saludo.ResultActivity"
             android:exported="false" />
         <activity
@@ -27,9 +45,6 @@
             android:name=".saludo.Saludo"
             android:exported="false" />
         <activity
-            android:name=".navigationComponent.NavigationComponent"
-            android:exported="false" />
-        <activity
             android:name=".datePicker.DatePicker"
             android:exported="false" />
         <activity
@@ -39,7 +54,7 @@
             android:name=".calculator.Calculator"
             android:exported="false" />
         <activity
-            android:name=".MenuInicio"
+            android:name=".menu.MenuInicio"
             android:exported="false" />
         <activity
             android:name=".splashScreen.MainActivity"

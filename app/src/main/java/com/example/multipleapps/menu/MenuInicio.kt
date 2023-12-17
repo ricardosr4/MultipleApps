@@ -1,4 +1,4 @@
-package com.example.multipleapps
+package com.example.multipleapps.menu
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
