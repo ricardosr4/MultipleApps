@@ -84,6 +84,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCalculator" />
 
-
+    <Button
+        android:id="@+id/btnSuperHero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Super Heroes"
+        android:layout_margin="16dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDogsApp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
