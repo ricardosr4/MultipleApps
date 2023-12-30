@@ -10,6 +10,7 @@ import com.example.multipleapps.datePicker.DatePicker
 import com.example.multipleapps.dogsApp.DogsApp
 import com.example.multipleapps.navigationComponent.NavigationComponent
 import com.example.multipleapps.saludo.Saludo
+import com.example.multipleapps.superHero.SuperHeroActivity
 import com.example.multipleapps.timePicker.TimePicker
 
 class MenuInicio : AppCompatActivity() {
@@ -26,9 +27,13 @@ class MenuInicio : AppCompatActivity() {
         binding.btnCourseKotlin.setOnClickListener { navigateToCourseKotlin() }
         binding.btnCalculator.setOnClickListener { navigateToCalculator() }
         binding.btnDogsApp.setOnClickListener { navigateToDogsApp() }
+        binding.btnSuperHero.setOnClickListener { navigateToSuperHero() }
 
 
     }
+
+
+
     //todo Aqui se crean las funciones para navegar a traves de un intent hacia la pantalla seleccionada
     private fun navigateToSaludarApp() {
         val intent = Intent(this, Saludo::class.java)
@@ -57,6 +62,10 @@ class MenuInicio : AppCompatActivity() {
 
     private fun navigateToDogsApp() {
         val intent = Intent(this, DogsApp::class.java)
+        startActivity(intent)
+    }
+    private fun navigateToSuperHero() {
+        val intent = Intent(this, SuperHeroActivity::class.java)
         startActivity(intent)
     }
 }
