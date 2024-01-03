@@ -1,5 +1,6 @@
 package com.example.multipleapps.superHero
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -7,6 +8,7 @@ import androidx.appcompat.widget.SearchView
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.multipleapps.databinding.ActivitySuperHeroBinding
+import com.example.multipleapps.superHero.DetailSuperheroActivity.Companion.EXTRA_ID
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -41,7 +43,7 @@ class SuperHeroActivity : AppCompatActivity() {
         }
         )
         //todo dentro en nuestro initUi() crearemos nuestro Adapter
-        adapter = SuperheroAdapter()
+        adapter = SuperheroAdapter{navigateToItemSuperHero(it)}
         binding.rvSuperHero.setHasFixedSize(true)
         binding.rvSuperHero.layoutManager = LinearLayoutManager(this)
         binding.rvSuperHero.adapter = adapter
@@ -75,6 +77,13 @@ class SuperHeroActivity : AppCompatActivity() {
             .baseUrl("https://superheroapi.com/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
+
+    }
+    private fun navigateToItemSuperHero(id:String){
+        val intent = Intent(this, DetailSuperheroActivity::class.java)
+        intent.putExtra(EXTRA_ID,id)
+        startActivity(intent)
+
 
     }
 }

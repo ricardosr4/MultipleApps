@@ -17,10 +17,20 @@
     <color name="marron">#A52A2A</color>
     <color name="oro">#FFD700</color>
     <color name="plata">#C0C0C0</color>
-    <color name="teal">#008080</color>
+    <color name="teal">#32008080</color>
     <color name="cian">#00FFFF</color>
     <color name="lavanda">#E6E6FA</color>
     <color name="azulMarino">#000080</color>
     <color name="verdeLima">#00FF00</color>
     <color name="grisOscuro">#333333</color>
+
+    <color name="item_SuperHero">#A6000080</color>
+
+
+
+
+
+
+
+
 </resources>
