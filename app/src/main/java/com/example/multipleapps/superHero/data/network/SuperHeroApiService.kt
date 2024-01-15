@@ -1,5 +1,6 @@
 package com.example.multipleapps.superHero
 
+import com.example.multipleapps.superHero.data.model.SuperHeroDataResponse
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path
