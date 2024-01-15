@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.multipleapps.R
+import com.example.multipleapps.superHero.data.model.SuperHeroItemResponse
 
 //todo Aqui se crea el Adapter y se implementan 3 metodos
 class SuperheroAdapter(
