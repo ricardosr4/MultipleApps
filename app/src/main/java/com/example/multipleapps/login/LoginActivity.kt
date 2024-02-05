@@ -23,6 +23,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun navigateToMenu() {
+        // aqui dice que si el correo es valido puede entrar
         val email = binding.etUser.text.toString()
         if (isValidEmail(email)) {
 
