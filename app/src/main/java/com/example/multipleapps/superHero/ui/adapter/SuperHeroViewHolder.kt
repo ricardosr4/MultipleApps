@@ -1,8 +1,9 @@
-package com.example.multipleapps.superHero
+package com.example.multipleapps.superHero.ui.adapter
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
 import com.example.multipleapps.databinding.ItemRecyclerviewSuperheroBinding
+import com.example.multipleapps.superHero.data.model.SuperHeroItemResponse
 import com.squareup.picasso.Picasso
 
 class SuperHeroViewHolder(view: View):RecyclerView.ViewHolder(view){

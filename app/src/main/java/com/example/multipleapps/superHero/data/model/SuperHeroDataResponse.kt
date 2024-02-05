@@ -1,4 +1,4 @@
-package com.example.multipleapps.superHero
+package com.example.multipleapps.superHero.data.model
 
 import com.google.gson.annotations.SerializedName
 

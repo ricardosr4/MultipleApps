@@ -1,4 +1,4 @@
-package com.example.multipleapps.superHero
+package com.example.multipleapps.superHero.ui.activity
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,11 +8,13 @@ import androidx.appcompat.widget.SearchView
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.multipleapps.databinding.ActivitySuperHeroBinding
-import com.example.multipleapps.superHero.DetailSuperheroActivity.Companion.EXTRA_ID
+import com.example.multipleapps.superHero.ui.adapter.SuperheroAdapter
+import com.example.multipleapps.superHero.ui.activity.DetailSuperheroActivity.Companion.EXTRA_ID
+import com.example.multipleapps.superHero.data.model.SuperHeroDataResponse
+import com.example.multipleapps.superHero.data.network.SuperHeroApiService
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
-import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
