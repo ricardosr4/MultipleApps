@@ -1,4 +1,4 @@
-package com.example.multipleapps.superHero
+package com.example.multipleapps.superHero.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

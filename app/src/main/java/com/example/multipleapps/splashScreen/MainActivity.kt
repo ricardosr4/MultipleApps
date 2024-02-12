@@ -6,6 +6,7 @@ import android.os.Bundle
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.example.multipleapps.menu.MenuInicio
 import com.example.multipleapps.databinding.ActivityMainBinding
+import com.example.multipleapps.login.LoginActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         screenSplash.setKeepOnScreenCondition{true}
-        val intent = Intent(this, MenuInicio::class.java)
+        val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
         finish()
 

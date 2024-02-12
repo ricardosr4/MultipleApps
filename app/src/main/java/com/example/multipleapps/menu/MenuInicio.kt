@@ -10,7 +10,7 @@ import com.example.multipleapps.datePicker.DatePicker
 import com.example.multipleapps.dogsApp.DogsApp
 import com.example.multipleapps.navigationComponent.NavigationComponent
 import com.example.multipleapps.saludo.Saludo
-import com.example.multipleapps.superHero.SuperHeroActivity
+import com.example.multipleapps.superHero.ui.activity.SuperHeroActivity
 import com.example.multipleapps.timePicker.TimePicker
 
 class MenuInicio : AppCompatActivity() {
