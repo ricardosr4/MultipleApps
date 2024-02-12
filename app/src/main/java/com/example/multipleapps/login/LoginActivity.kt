@@ -43,7 +43,14 @@ class LoginActivity : AppCompatActivity() {
 //todo esta funcion es para validar que sea un correo valido que se esta ingresando
     private fun isValidEmail(email: String): Boolean {
         val pattern = Patterns.EMAIL_ADDRESS
-        return pattern.matcher(email).matches()
+    return pattern.matcher(email).matches()
+
+       // val result = pattern.matcher(email).matches()
+    /*
+    data.postvalue(result)
+     */
 
     }
+
+
 }
