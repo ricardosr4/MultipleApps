@@ -17,16 +17,16 @@ fun main() {
 
 //todo Lecciones:
     //leccion 1
-    variablesYConstantes()
+    //variablesYConstantes()
 
     //Leccion 2
     //tiposDeDatos()
 
     //Leccion 3
-    sentenciaIf()
+    //sentenciaIf()
 
     //Leccion 4
-    //
+    //funciones()
 
 
 }
@@ -102,6 +102,10 @@ private fun sentenciaIf(){
     }else{
         println("$myNumber es mayor que 10")
     }
+}
+
+private fun funciones(){
+
 }
 
 
